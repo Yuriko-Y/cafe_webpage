@@ -1,16 +1,14 @@
 
 #home{
-    background-image: url(../image/coffee.jpg);
+    background-image: url(../image/coffee1.jpg);
     min-height: 100vh;
 }
 .big-bg{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+
 }
 .main-nav a{
     color: whitesmoke;
-}
-h1{
-    color: #C498C0;
 }
