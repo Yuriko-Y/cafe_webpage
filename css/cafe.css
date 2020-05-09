@@ -42,12 +42,16 @@ a{
     background-repeat: no-repeat;
 }
 #home{
-    background-image: url(../image/coffee1.jpg);
+    background-image: url(../image/coffee1.jpg),linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: hard-light;
     min-height: 100vh;
 }
 .home-content{
     text-align: center;
     margin-top: 10%;
+    background: rgba(139, 115, 115, 0.651);
+    width: 65%;
+    height: 110%;  
 }
 .home-content p{
     font-size: 2.0rem;
@@ -60,13 +64,19 @@ a{
     font-weight: normal;
 }
 /* ボタン*/
-.button{
+.content-button{
+    text-align: center;
+    
+}
+button{
     font-size: 1.7rem;
     background: #C498C0;
     color: #ffffff;
+    font-family: 'Gaegu', cursive;
     border-radius: 5px;
     padding: 18px 32px;
+    border: none;
 }
-.button:hover{
+button:hover{
     background: rgb(201, 187, 200);
 }
