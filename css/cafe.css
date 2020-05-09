@@ -1,3 +1,4 @@
+/* 共通部分 */
 body{
     color: #ffffff;
     font-family: 'Gaegu', cursive;
@@ -5,6 +6,10 @@ body{
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
+/* HEADER */
 .logo{
     width: 300px;
     margin-top: 14px;
@@ -32,26 +37,17 @@ a{
     justify-content: space-between;
 }
 .wrapper{
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0 auto;
     padding: 0 4%;
 }
-.big-bg{
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
-#home{
-    background-image: url(../image/coffee1.jpg),linear-gradient(#c9ffbf, #ffafbd);
-    background-blend-mode: hard-light;
-    min-height: 100vh;
-}
+/* HOME */
 .home-content{
     text-align: center;
     margin-top: 10%;
     background: rgba(139, 115, 115, 0.651);
-    width: 65%;
-    height: 110%;  
+    width: 92%;
+    height: 100%;  
 }
 .home-content p{
     font-size: 2.0rem;
@@ -65,8 +61,7 @@ a{
 }
 /* ボタン*/
 .content-button{
-    text-align: center;
-    
+    text-align: center; 
 }
 button{
     font-size: 1.7rem;
@@ -79,4 +74,49 @@ button{
 }
 button:hover{
     background: rgb(201, 187, 200);
+}
+/* 背景画像 */
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url(../image/coffee1.jpg),linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: hard-light;
+    min-height: 100vh;
+}
+
+/* モバイル版 */
+@media screen and (max-width:600px){
+    /*画面幅が600pxまでの時*/
+    /* HEADER */
+.logo{
+    width: 130px;
+}
+.main-nav{
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.main-nav li{
+    margin: 0 20px;     
+}
+/* HOME */
+.home-content{
+    margin-top: 30%;
+    width: 90%;
+}
+.home-content p{
+    font-size: 1.5rem;
+    margin: 10px 0 42px;
+}
+/* 見出し */
+.page-title{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 13px 27px;
+}
+
 }
