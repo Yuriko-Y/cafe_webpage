@@ -1,14 +1,39 @@
 
-#home{
-    background-image: url(../image/coffee1.jpg);
-    min-height: 100vh;
+.logo{
+    width: 300px;
+    margin-top: 14px;
 }
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 60px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+      
+}
+.main-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color: #C498C0;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .big-bg{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 
 }
-.main-nav a{
-    color: whitesmoke;
+
+#home{
+    background-image: url(../image/coffee1.jpg);
+    min-height: 100vh;
 }
