@@ -108,7 +108,8 @@ button:hover{
 
 /* 記事部分 */
 article{
-    width: 74%;
+    width: 60%;
+    order: 2;
 }
 .post-info{
     position: relative;
@@ -160,6 +161,7 @@ article p{
 /* サイドバー */
 aside{
     width: 22%;
+    order: 3;
 }
 .sub-title{
     font-family: 'Kosugi Maru', sans-serif;
@@ -187,6 +189,10 @@ aside p{
 }
 .sub-menu a:hover{
     color: #C498C0;
+}
+.pc{
+    display: block;
+    order: 1;
 }
 
 
@@ -270,5 +276,8 @@ aside{
 .post-title,
 .post-cat{
     margin-left: 80px;
+    }
+.pc{
+    display: none;
 }
 }
