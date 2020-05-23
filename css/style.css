@@ -225,7 +225,7 @@ aside p{
     background-image: url(../image/contact.jpg);
     background-color: rgb(173, 141, 173);
     background-blend-mode: darken;
-    filter: sepia(50%);
+    filter: sepia(30%);
     min-height: 100vh;
 }
 
