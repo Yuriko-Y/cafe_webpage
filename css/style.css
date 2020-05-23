@@ -197,7 +197,7 @@ aside p{
 /* メニュー */
 #menu{
     background-image: url(../image/menu.jpg);
-    height: 270px;
+    height: 280px;
 }
 .menu-contents{
     max-width: 560px;
@@ -206,8 +206,17 @@ aside p{
 .menu-contents .page-title{
     text-align: center;
     padding-top: 130px;
-
-    
+   
+}
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item p{
+    font-size: 20px;
 }
 
 
