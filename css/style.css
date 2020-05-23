@@ -194,7 +194,21 @@ aside p{
     display: block;
     order: 1;
 }
+/* メニュー */
+#menu{
+    background-image: url(../image/menu.jpg);
+    height: 270px;
+}
+.menu-contents{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.menu-contents .page-title{
+    text-align: center;
+    padding-top: 130px;
 
+    
+}
 
 
 /* フッター */
@@ -279,5 +293,9 @@ aside{
     }
 .pc{
     display: none;
+}
+/* MENU */
+.menu-contents{
+    margin-top: 20%;
 }
 }
