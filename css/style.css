@@ -92,7 +92,7 @@ button:hover{
 
 #news{
     background-image: url(../image/news.jpg);
-    height: 260px;
+    height: 280px;
     margin-bottom: 40px;
 }
 #news .page-title{
@@ -197,6 +197,8 @@ aside p{
 /* メニュー */
 #menu{
     background-image: url(../image/menu.jpg);
+    background-color: rgb(207, 188, 169);
+    background-blend-mode: hard-light;
     height: 280px;
 }
 .menu-contents{
@@ -215,6 +217,7 @@ aside p{
     margin-top: 6%;
     margin-bottom: 50px;
 }
+
 .item p{
     font-size: 20px;
 }
