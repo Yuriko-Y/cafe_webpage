@@ -65,7 +65,7 @@ img{
 .content-button{
     text-align: center; 
 }
-button{
+.button{
     font-size: 1.7rem;
     background: #C498C0;
     color: #ffffff;
@@ -74,7 +74,7 @@ button{
     padding: 18px 32px;
     border: none;
 }
-button:hover{
+.button:hover{
     background: rgb(201, 187, 200);
 }
 /* 背景画像 */
@@ -217,10 +217,21 @@ aside p{
     margin-top: 6%;
     margin-bottom: 50px;
 }
-
 .item p{
     font-size: 20px;
 }
+/* Contact */
+#contact{
+    background-image: url(../image/contact.jpg);
+    min-height: 100vh;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
 
 
 /* フッター */
