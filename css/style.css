@@ -223,9 +223,6 @@ aside p{
 /* Contact */
 #contact{
     background-image: url(../image/contact.jpg);
-    background-color: rgb(173, 141, 173);
-    background-blend-mode: darken;
-    filter: sepia(30%);
     min-height: 100vh;
 }
 
