@@ -226,7 +226,6 @@ aside p{
     min-height: 100vh;
 }
 
-
 /* フォーム */
 form div{
     margin-bottom: 14px;
@@ -260,14 +259,7 @@ input[type="submit"]{
     border: none;
     cursor: pointer;
     line-height: 1;
-
 }
-
-
-
-
-
-
 
 
 
@@ -358,4 +350,18 @@ aside{
 .menu-contents{
     margin-top: 20%;
 }
+/* CONTACT */
+#contact .page-title{
+    margin-top: 40px;
+}
+#contact{
+    width: 100%;
+}
+/* フォーム */
+input[type="text"],
+input[type="email"],
+textarea{
+    max-width: 80%;
+}
+
 }
