@@ -260,9 +260,6 @@ input[type="submit"]{
     cursor: pointer;
     line-height: 1;
 }
-
-
-
 /* フッター */
 footer{
 background: #432;
@@ -273,6 +270,27 @@ padding: 26px 0;
 footer p{
 color: #fff;
 font-size: 0.875rem;
+}
+/* TOPボタン */
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#page_top a {
+    font-size: 1.7rem;
+    background: #C498C0;
+    color: #ffffff;
+    font-family: 'Gaegu', cursive;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 32px;
+}
+#page_top a:hover {
+    background-color: rgb(201, 187, 200);
+    text-decoration: none;
 }
 /* モバイル版 */
 @media screen and (max-width:600px){
