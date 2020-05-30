@@ -83,6 +83,8 @@ img{
     background-position: center top;
     background-repeat: no-repeat;
 }
+
+
 #home{
     background-image: url(../image/coffee1.jpg),linear-gradient(#c9ffbf, #ffafbd);
     background-blend-mode: hard-light;
@@ -105,6 +107,7 @@ img{
     justify-content: space-between;
     margin-bottom: 50px;
 }
+
 
 /* 記事部分 */
 article{
@@ -220,6 +223,12 @@ aside p{
 .item p{
     font-size: 20px;
 }
+/* アニメーション */
+.item {
+    opacity : 0;
+    transform: translateY(30px);
+    transition: 1s;
+  }
 /* Contact */
 #contact{
     background-image: url(../image/contact.jpg);
