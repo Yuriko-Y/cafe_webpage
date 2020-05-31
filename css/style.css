@@ -223,12 +223,6 @@ aside p{
 .item p{
     font-size: 20px;
 }
-/* アニメーション */
-.item {
-    opacity : 0;
-    transform: translateY(30px);
-    transition: 1s;
-  }
 /* Contact */
 #contact{
     background-image: url(../image/contact.jpg);
