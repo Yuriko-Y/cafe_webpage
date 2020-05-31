@@ -26,6 +26,14 @@ $(function(){
         scale: 0.1,
         reset: true
       });
+      ScrollReveal().reveal('.wrapper', { 
+        duration: 1600,
+        reset: true   
+      });
+      ScrollReveal().reveal('.big-bg', { 
+        duration: 1600,
+        reset: true   
+      });
  
   });
   
